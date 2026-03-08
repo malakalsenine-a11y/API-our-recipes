@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Recipes</title>
+    <!-- bootstrab css -->
+     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+
+     <!-- style css -->
+      <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+<div class="container my-3">
+  <h1>Our <span>Recipes</span></h1>
+
+  <select id="categorySelect" class="form-control my-2">
+    <option value="">Pizza</option>
+    <option value="pomegranate">Pomegranate</option>
+    <option value="quince">Quince</option>
+    <option value="raspberry">Raspberry</option>
+    <option value="strawberry">Strawberry</option>
+    <option value="watermelon">Watermelon</option>
+    <option value="pizza">Pizza</option>
+    <option value="duck">Duck</option>
+    <option value="rendang">Rendang</option>
+    <option value="ham">Ham</option>
+    <option value="bacon">Bacon</option>
+    <option value="pepperoni">Pepperoni</option>
+    <option value="croissant">Croissant</option>
+    <option value="sushi">Sushi</option>
+  </select>
+
+  <div id="loader" class="text-center my-5" style="display:none;">
+    <div class="spinner-border text-warning" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+</div>
+
+
+  <div id="recipesContainer" class="row"></div>
+</div>
+
+
+
+
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
